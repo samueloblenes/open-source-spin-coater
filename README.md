@@ -8,13 +8,6 @@ A fully open-source, vacuum-chuck spin coater built as a low-cost alternative to
 
 This project is an attempt to build a fully open hardware, firmware, and software spin coater capable of producing precise and repeatable results, at a fraction of the cost of commercially available options.
 
-## Planned Capabilities
-
-- Precise RPM control, 1000-6000 RPM
-- Configurable multi-step spin recipes
-- Onboard touchscreen control and status display
-- Vacuum chuck substrate holding (functioning with an external vacuum pump)
-
 ## Build Progress
 
 - [x] Vacuum chuck mechanical design (preliminary)
