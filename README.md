@@ -1,33 +1,25 @@
 # open-source-spin-coater
 
-A fully open-source, vacuum-chuck spin coater for thin-film fabrication built as a low-cost alternative to commercial spin coaters.
+A fully open-source, vacuum-chuck spin coater built as a low-cost alternative to commercial spin coaters.
 
-🚧 **Status:** Early development. Not yet complete or ready for use. See [Build Progress](https://github.com/YOUR_USERNAME/spin-coater#build-progress) below for current status.
+**Status:** Early development. Not yet complete or ready for use. See [Build Progress](https://github.com/YOUR_USERNAME/spin-coater#build-progress) below for current status.
 
 ## Overview
 
-Commercial spin coaters are a common bottleneck for labs, hobbyists, and independent researchers. This project is an attempt to build a fully open hardware, firmware, and software spin coater capable of precise, repeatable spin speeds, at a fraction of the cost.
-
-The instrument is built around a vacuum-chuck substrate holder driven by a sensorless brushless motor, using ESC telemetry for closed-loop RPM feedback and a PID control loop to hold a precise target speed. A Teensy handles low-level control and speed regulation, with an onboard touchscreen for setting and monitoring spin recipes.
+This project is an attempt to build a fully open hardware, firmware, and software spin coater capable of producing precise and repeatable results, at a fraction of the cost of commercially available options.
 
 ## Planned Capabilities
 
-- Closed-loop RPM control, 1,000–6,000 RPM
-- Configurable multi-step spin recipes (ramp rate, hold time, speed per step)
+- Precise RPM control, 1000-6000 RPM
+- Configurable multi-step spin recipes
 - Onboard touchscreen control and status display
-- Vacuum chuck substrate holding (functioning with an external vacume pump)
+- Vacuum chuck substrate holding (functioning with an external vacuum pump)
 
 ## Build Progress
 
 - [x] Vacuum chuck mechanical design (preliminary)
 - [x] Enclosure mechanical design (preliminary)
 - [ ] Circuit design and component selection (in progress)
-- [ ] Order mechanical, 3D-printed, and electrical parts
-- [ ] Firmware
-- [ ] Breadboard prototype
-- [ ] Breadboard testing & debugging
-- [ ] PCB layout
-- [ ] Full assembly & validation
 
 <p float="left">
   <img src="docs/images/spin coater section view.png" width="45%" />
